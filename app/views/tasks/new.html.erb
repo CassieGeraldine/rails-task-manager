@@ -1,0 +1,10 @@
+<!-- app/views/restaurants/new.html.erb -->
+<%= form_with model: @task do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :details %>
+  <%= f.label :completed %>
+  <%= f.text_field :address %>
+  <%= f.label :rating %>
+  <%= f.number_field :rating %>
+  <%= f.submit %>
+<% end %>
